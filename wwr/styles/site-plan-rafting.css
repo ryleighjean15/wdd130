@@ -1,0 +1,72 @@
+.callout {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid #aaabbc;
+    padding: 15px;
+    background-color: #8B8982;
+
+}
+@import url('https://fonts.google.com/specimen/Fjalla+One');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px; 
+}
+
+:root {
+    --primary-color: #AAABBC;
+    --secondary-color: #8B8982;
+    --accent1-color: #373F47;
+    --accent1-color: #6C91C2;
+
+    --heading-font: 'Caveat', serif;
+    --paragraph-font: 'Fjalla One', serif;
+
+    --nav-background-color: #AAABBC;
+    --nav-link-color: #8B8982;
+    --nav-hover-link-color: #373F47;
+    --nav-hover-background-color: #6C91C2;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color) ; 
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color) ; 
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
+}

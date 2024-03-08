@@ -15,10 +15,10 @@ body {
 }
 
 :root {
-    --primary-color: #AAABBC;
-    --secondary-color: #8B8982;
-    --accent1-color: #373F47;
-    --accent1-color: #6C91C2;
+    --primary-color: #584B53;
+    --secondary-color: #9D5C63;
+    --accent1-color: #D6E3F8;
+    --accent2-color: #E4BB97;
 
     --heading-font: 'Caveat', serif;
     --paragraph-font: 'Fjalla One', serif;

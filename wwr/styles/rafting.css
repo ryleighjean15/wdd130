@@ -1,0 +1,43 @@
+@import url('https://fonts.google.com/specimen/Caveat+Brush');
+
+:root {
+    --primary-color: #423E37;
+    --secondary-color: #9D5C63;
+    --accent1-color: #D6E3F8;
+    --accent2-color: #E4BB97;
+
+    --heading-font: 'Caveat+Brush', serif;
+    --paragraph-font: 'Caveat+Brush', serif;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
+
+/* nav class img {
+    width: 50px;
+    height: auto;
+}
+
+nav a:link {
+    text-decoration: none;
+} */
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+}

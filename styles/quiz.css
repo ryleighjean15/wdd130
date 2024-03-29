@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 1 auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2.0rem;
+    color: rgb(38, 104, 34);
+    text-align: left;
+}
+
+form {
+    width: 650px; 
+    margin: 0 auto; 
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem; 
+    background-color: #eee; 
+    display: grid;
+}
+
+fieldset {
+    display: grid; 
+    grid-gap: 1.5 rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(29, 126, 74);
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1.0em;
+    color:#2e2222;
+    border-top: 2px solid #ccc;
+}

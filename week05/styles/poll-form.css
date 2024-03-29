@@ -44,7 +44,7 @@ fieldset {
 }
 
 legend {
-    padding: 0.5 rem;
+    padding: 0.5rem;
     color: navy;
     font-size: 1.3rem;
 }
@@ -83,7 +83,7 @@ footer {
     margin: 1rem auto 0;
     width: 650px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color:#2e2222;
     border-top: 1px solid #ccc;
 }

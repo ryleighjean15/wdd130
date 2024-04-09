@@ -177,7 +177,7 @@ footer {
     margin-left: 22rem;
 }
 
-button {
+button, .button1, .button {
     margin: 1rem;
     background-color: rgb(18, 35, 26);
     color: #fff;
@@ -185,6 +185,7 @@ button {
     padding: 0.5rem;
     font-size: 1.5rem;
     font-family: caveat;
+    text-align: center;
 }
 
 .home img {
@@ -193,6 +194,7 @@ button {
 
 .page {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .page img {
@@ -230,4 +232,102 @@ figure figcaption {
     top: 100px;
 }
 
+
+.employee-pics {
+    display: flex;
+}
+
+.employee-pics img{
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+form {
+    width: 650px; 
+    margin: 0 auto; 
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem; 
+    background-color: #eee; 
+    display: grid;
+}
+
+fieldset {
+    display: grid; 
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+}
+
+input, select, textarea {
+    padding: 0.5rem; 
+    font-size: 0.5rem;
+    margin-right: 10rem;
+}
+
+
+label, input, button, select, textarea {
+    font-family: Rototo, Arial, sans-serif;
+}
+
+label {
+    text-align: left; 
+}
+
+textarea {
+    width: 250px;
+    height: 125px;
+}
+
+.form-item {
+    display: grid;
+    text-align: left;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1.0rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    margin: 2rem;
+    background-color: #1a916b;
+    color: #fff;
+    border: none;
+    border-radius: 0rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+footer {
+    display: grid;
+    margin: 1rem auto;
+	grid-template-columns: 2fr 1fr;
+    text-align: center;
+}
 

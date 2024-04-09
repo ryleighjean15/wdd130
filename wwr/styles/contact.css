@@ -84,17 +84,6 @@ figcaption {
 
 
 
-.sociallinks img{
-    width: 60px;
-    justify-content: space-between;
-}
-
-.sociallinks {
-    display: flex;
-    justify-content: space-around;
-}
-
-
 form {
     width: 650px; 
     margin: 0 auto; 
